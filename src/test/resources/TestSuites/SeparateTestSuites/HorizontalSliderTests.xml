@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HorizontalSlidersTestSuite" verbose="1">
+
+    <test name="HorizontalSlidersTests">
+        <classes>
+            <class name="com.qualitest.sjumbe.horizontalsliderstests.HorizontalSlidersTests" />
+        </classes>
+    </test>
+
+</suite>

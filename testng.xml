@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/stewart.jumbe/IdeaProjects/Advanced-Selenium-Webdriver/src/test/java/com/qualitest/sjumbe/alertests/AlertTest.java">
+        <classes>
+            <class name="com.qualitest.sjumbe.alertests.AlertTest">
+                <methods>
+                    <include name="jsAlertTest"/>
+                    <include name="jsConfirmTest"/>
+                    <include name="jsPromptTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

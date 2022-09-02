@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AlertTestSuite" verbose="1" parallel="tests" thread-count="3" >
+
+    <test name="AlertTests-JS Alert">
+        <classes>
+            <class name="com.qualitest.sjumbe.alertests.AlertTest">
+                <methods>
+                    <include name="jsAlertTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="AlertTests-AcceptAlert (ConfirmTest and PromptTest)">
+        <parameter name="alertChoice" value="OK"></parameter>
+        <parameter name="alertChoice" value="Cancel"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.alertests.AlertTest">
+            <methods>
+                <exclude name="jsAlertTest"></exclude>
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+</suite>

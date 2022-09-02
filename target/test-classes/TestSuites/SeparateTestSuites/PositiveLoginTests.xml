@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLoginTestSuite" verbose="1" >
+
+<!--    Test with user profile info
+To implement this you need to add user profile data from chrome which is : C:\Users\stewart.jumbe\AppData\Local\Google\Chrome\User Data\Default
+its a big folder
+    <test name="PositiveTest -WPr">
+        <parameter name="chromeProfile" value="ChromeProfile"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.loginpagetests.PositiveLoginTests" />
+        </classes>
+    </test>
+-->
+<!--    Test with out user profile infomation-->
+    <test name="PositiveTest -WoPr">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.loginpagetests.PositiveLoginTests" />
+        </classes>
+    </test>
+
+
+
+
+</suite>

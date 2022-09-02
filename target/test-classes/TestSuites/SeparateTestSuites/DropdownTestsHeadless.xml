@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DropdownSelectionTestSuite" verbose="1">
+
+    <test name="DropdownSelectionTest-Option 1 [Headless Chrome]">
+        <parameter name="optionValue" value="1"></parameter>
+        <parameter name="browser" value="chromeheadless"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.dropdowntests.DropdownTest" />
+        </classes>
+    </test>
+
+    <test name="DropdownSelectionTest-Option 2">
+        <parameter name="optionValue" value="2"></parameter>
+        <parameter name="browser" value="chromeheadless"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.dropdowntests.DropdownTest" />
+        </classes>
+    </test>
+
+</suite>

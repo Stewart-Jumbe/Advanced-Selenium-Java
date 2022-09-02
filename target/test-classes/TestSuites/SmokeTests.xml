@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" verbose="1">
+
+    <test name="PositiveLoginTest">
+        <classes>
+            <class name="com.qualitest.sjumbe.loginpagetests.PositiveLoginTests" />
+        </classes>
+    </test>
+
+    <test name="AlertTests-JS Alert">
+        <classes>
+            <class name="com.qualitest.sjumbe.alertests.AlertTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="FileUploadTests">
+        <classes>
+            <class name="com.qualitest.sjumbe.fileuploadtests.FileUploadTests" />
+        </classes>
+    </test>
+
+</suite>

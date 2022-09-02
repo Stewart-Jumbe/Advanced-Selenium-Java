@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Advanced-Selenium-Webdriver(failed)">
+    <classes>
+      <class name="com.qualitest.sjumbe.alertests.AlertTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="jsPromptTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qualitest.sjumbe.alertests.AlertTest -->
+    </classes>
+  </test> <!-- Advanced-Selenium-Webdriver(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

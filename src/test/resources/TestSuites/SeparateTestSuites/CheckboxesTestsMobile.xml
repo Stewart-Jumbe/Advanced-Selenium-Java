@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CheckboxSelectionTestSuite Mobile" verbose="1">
+<!--    <listeners>-->
+<!--        <listener class-name="com.qualitest.sjumbe.base.MyListener"/>-->
+<!--    </listeners>-->
+    <test name="CheckboxSelectionTests- Android">
+        <parameter name="deviceName" value="Galaxy Fold"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.checkboxespagetests.CheckboxesTests" />
+        </classes>
+    </test>
+
+    <test name="CheckboxSelectionTests- iOs">
+        <parameter name="deviceName" value="iPhone SE"></parameter>
+        <classes>
+            <class name="com.qualitest.sjumbe.checkboxespagetests.CheckboxesTests" />
+        </classes>
+    </test>
+
+</suite>

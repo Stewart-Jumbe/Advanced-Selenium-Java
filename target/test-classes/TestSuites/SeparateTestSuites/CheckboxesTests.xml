@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CheckboxSelectionTestSuite" verbose="1">
+<!--    <listeners>-->
+<!--        <listener class-name="com.qualitest.sjumbe.base.MyListener"/>-->
+<!--    </listeners>-->
+    <test name="CheckboxSelectionTests">
+        <classes>
+            <class name="com.qualitest.sjumbe.checkboxespagetests.CheckboxesTests" />
+        </classes>
+    </test>
+
+</suite>

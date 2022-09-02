@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheckboxSelectionTestSuite Mobile]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CheckboxSelectionTests- Android(failed)">
+    <parameter name="deviceName" value="Pixel 5 "/>
+    <classes>
+      <class name="com.qualitest.sjumbe.checkboxespagetests.CheckboxesTests">
+        <methods>
+          <include name="selectingTwoCheckboxesTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qualitest.sjumbe.checkboxespagetests.CheckboxesTests -->
+    </classes>
+  </test> <!-- CheckboxSelectionTests- Android(failed) -->
+</suite> <!-- Failed suite [CheckboxSelectionTestSuite Mobile] -->
